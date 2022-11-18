@@ -1,4 +1,5 @@
 import React from 'react'
+import Article from '../components/article/Article'
 import Header from '../components/header/Header'
 import Hero from '../components/hero/Hero'
 import Support from '../components/support/Support'
@@ -12,6 +13,7 @@ const Complaint = () => {
     <Hero />
     <Topic />
     <Support />
+    <Article />
     </>
   )
 }

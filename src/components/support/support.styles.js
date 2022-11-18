@@ -45,13 +45,13 @@ margin-right: auto;
     }
 
     .support-container h1 {
-        font-size: 1rem;
-        line-height: 1.2rem;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
     }
 
     .support-container p {
-        font-size: 1.5rem;
-        line-height: 1.8rem;
+        font-size: 1rem;
+        line-height: 1.2rem;
     }
 }
 
