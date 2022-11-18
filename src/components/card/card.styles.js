@@ -3,6 +3,7 @@ import styled from "styled-components";
 const CardWrapper = styled.section`
   margin-top: 70px;
   margin-left: 30px;
+//   marging-right: 30px;
 
   .card-wrapper {
     display: grid;
@@ -11,7 +12,7 @@ const CardWrapper = styled.section`
   }
 
   .card-container {
-    background: grey;
+    background: #FFFAFA;
     border-radius: 12px;
     cursor: pointer;
   }
@@ -37,17 +38,15 @@ const CardWrapper = styled.section`
     color: #000000;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     margin-top: 58px;
-    margin-right: auto;
-    // margin-left: auto;
     .card-wrapper {
       grid-template-columns: auto;
     }
 
     .card-container {
       border-radius: 8px;
-      width: 257px;
+      margin-right: 30px;
     }
     .wrapper {
       padding: 24px 16px;

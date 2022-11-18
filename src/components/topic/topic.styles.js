@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const TopicWrapper = styled.section`
-  margin: 146px 114px auto;
+margin-top: 146px;
 
 //   .container {
 //     display: flex;
@@ -31,6 +31,7 @@ const TopicWrapper = styled.section`
   }
 
   @media screen and (max-width: 600px) {
+    margin-top: 42px;
     .container h1 {
         font-size: 1.3rem;
         line-height: 1.68rem;

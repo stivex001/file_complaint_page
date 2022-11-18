@@ -13,8 +13,9 @@ const Topic = ({img, desc, title}) => {
             the readable content of a page when looking at its layout.
           </p>
         </div>
-      </TopicWrapper>
         <Card />
+      </TopicWrapper>
+        
     </>
   );
 };
