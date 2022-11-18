@@ -3,14 +3,6 @@ import styled from "styled-components";
 const TopicWrapper = styled.section`
 margin-top: 146px;
 
-//   .container {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center
-//     align-items: center
-//     margin: 0 auto;
-//   }
-
   .container h1 {
     font-weight: 400;
     font-size: 3.125rem;

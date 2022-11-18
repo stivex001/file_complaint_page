@@ -3,7 +3,6 @@ import styled from "styled-components";
 const CardWrapper = styled.section`
   margin-top: 70px;
   margin-left: 30px;
-//   marging-right: 30px;
 
   .card-wrapper {
     display: grid;
@@ -12,7 +11,7 @@ const CardWrapper = styled.section`
   }
 
   .card-container {
-    background: #FFFAFA;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
     border-radius: 12px;
     cursor: pointer;
   }
