@@ -9,7 +9,7 @@ margin-right: auto;
 
 .support-container {
     padding-top: 84px;
-    padding-bottom: 124px;
+    padding-bottom: 50px;
     text-align: center;
 }
 

@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const ArticleWrappper = styled.section`
-  margin-top: 119px;
 
   .article-container h1 {
     font-weight: 400;
@@ -63,8 +62,6 @@ const ArticleWrappper = styled.section`
   }
 
   @media (max-width: 600px) {
-    margin-top: 13px;
-
     .article-container h1 {
         font-size: 1.3rem;
         line-height: 1.68rem;
