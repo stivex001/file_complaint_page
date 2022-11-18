@@ -91,12 +91,12 @@ const ArticleWrappper = styled.section`
       }
 
       .card-wrapper h1 {
-        font-size: 0.5rem;
+        font-size: 0.9rem;
         line-height: 1rem;
       }
     
       .card-wrapper p {
-        font-size: 0.5rem;
+        font-size: 0.8rem;
         line-height: 1rem;
       }
 
