@@ -7,7 +7,7 @@ import * as yup from "yup";
 import { useNavigate } from "react-router-dom";
 
 const schema = yup.object().shape({
-  name: yup.string().required("Please input your firstname"),
+  name: yup.string().required("Please input your name"),
   userID: yup.string().required("Please input your Id"),
   email: yup.string().email().required("please input your email"),
   message: yup.string().required("Kindly enter your message"),
@@ -77,7 +77,7 @@ const FormModal = ({ toggleModal, modalOpen }) => {
                     rows="10"
                     placeholder="Write Your Help Subject..."
                   ></textarea>
-                  <p>{errors.name?.message}</p>
+                  <p>{errors.message?.message}</p>
                 </div>
 
                 <button type="submit">Submit</button>

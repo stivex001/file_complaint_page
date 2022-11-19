@@ -33,6 +33,7 @@ const HeroWrapper = styled.section`
     font-size: 1.125rem;
     line-height: 1.375rem;
     color: #f8fafc;
+    cursor: pointer;
   }
 
   .hero-img img {
